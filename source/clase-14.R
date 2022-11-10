@@ -78,7 +78,7 @@ browseURL("https://stringi.gagolewski.com") # stringi
 browseURL("https://github.com/rstudio/cheatsheets/blob/main/strings.pdf") # string 
 
 # importar bases de datos
-df <- import("data_15/output/abstrac_desarrollo_sociedad.rds") %>% 
+df <- import("output/abstrac_desarrollo_sociedad.rds") %>% 
       subset(textcat(titulo)=="english")
 
 # Convertir los abstrac en un vector de los caracteres
